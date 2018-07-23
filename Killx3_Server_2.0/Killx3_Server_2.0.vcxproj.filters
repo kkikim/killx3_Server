@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\CServer">
+      <UniqueIdentifier>{f77ddde6-51a3-453f-9f32-c11a150aa84e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CThreadManager">
+      <UniqueIdentifier>{c78a4c38-066d-4531-b465-027fd9ce5fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Player">
+      <UniqueIdentifier>{01a185cd-f6c9-4afb-a146-d5915a53446c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ProcessPacket">
+      <UniqueIdentifier>{db0c20d5-695d-4ad9-95c1-62cd4714d631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CRoom">
+      <UniqueIdentifier>{c26ebf2c-b27c-4501-9442-ff3cfb4cb79e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\NPC">
+      <UniqueIdentifier>{33dc77e2-9b0e-4830-992c-b9d508c3ce5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\NPC\Cave">
+      <UniqueIdentifier>{53f4c0fb-4338-47ff-88f0-ffba74bf85ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\NPC\Ice">
+      <UniqueIdentifier>{bd846d0a-f43e-4045-85e1-4ffbf06b4156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\NPC\Remain">
+      <UniqueIdentifier>{1560b05e-d121-47ff-a339-f98c72b4e635}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CServer.cpp">
+      <Filter>소스 파일\CServer</Filter>
+    </ClCompile>
+    <ClCompile Include="CThreadManager.cpp">
+      <Filter>소스 파일\CThreadManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketMgr.cpp">
+      <Filter>소스 파일\ProcessPacket</Filter>
+    </ClCompile>
+    <ClCompile Include="CRoom.cpp">
+      <Filter>소스 파일\CRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="CaveNormalNPC.cpp">
+      <Filter>소스 파일\NPC\Cave</Filter>
+    </ClCompile>
+    <ClCompile Include="CaveMiddleNPC.cpp">
+      <Filter>소스 파일\NPC\Cave</Filter>
+    </ClCompile>
+    <ClCompile Include="CaveBossNPC.cpp">
+      <Filter>소스 파일\NPC\Cave</Filter>
+    </ClCompile>
+    <ClCompile Include="IceNormalNPC.cpp">
+      <Filter>소스 파일\NPC\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="IceMiddleNPC.cpp">
+      <Filter>소스 파일\NPC\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="IceBossNPC.cpp">
+      <Filter>소스 파일\NPC\Ice</Filter>
+    </ClCompile>
+    <ClCompile Include="RemainNormalNPC.cpp">
+      <Filter>소스 파일\NPC\Remain</Filter>
+    </ClCompile>
+    <ClCompile Include="RemainMiddleNPC.cpp">
+      <Filter>소스 파일\NPC\Remain</Filter>
+    </ClCompile>
+    <ClCompile Include="RemainBossNPC.cpp">
+      <Filter>소스 파일\NPC\Remain</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="protocol.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CServer.h">
+      <Filter>소스 파일\CServer</Filter>
+    </ClInclude>
+    <ClInclude Include="CThreadManager.h">
+      <Filter>소스 파일\CThreadManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketMgr.h">
+      <Filter>소스 파일\ProcessPacket</Filter>
+    </ClInclude>
+    <ClInclude Include="CRoom.h">
+      <Filter>소스 파일\CRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="CaveNormalNPC.h">
+      <Filter>소스 파일\NPC\Cave</Filter>
+    </ClInclude>
+    <ClInclude Include="CaveMiddleNPC.h">
+      <Filter>소스 파일\NPC\Cave</Filter>
+    </ClInclude>
+    <ClInclude Include="CaveBossNPC.h">
+      <Filter>소스 파일\NPC\Cave</Filter>
+    </ClInclude>
+    <ClInclude Include="IceNormalNPC.h">
+      <Filter>소스 파일\NPC\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="IceMiddleNPC.h">
+      <Filter>소스 파일\NPC\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="IceBossNPC.h">
+      <Filter>소스 파일\NPC\Ice</Filter>
+    </ClInclude>
+    <ClInclude Include="RemainNormalNPC.h">
+      <Filter>소스 파일\NPC\Remain</Filter>
+    </ClInclude>
+    <ClInclude Include="RemainMiddleNPC.h">
+      <Filter>소스 파일\NPC\Remain</Filter>
+    </ClInclude>
+    <ClInclude Include="RemainBossNPC.h">
+      <Filter>소스 파일\NPC\Remain</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
